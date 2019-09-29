@@ -1,0 +1,44 @@
+.Lightbox {
+  /* background-color: grey;
+  max-height: 100vh;
+  margin: 130px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Lightbox *,
+.Lightbox {
+  box-sizing: border-box;
+}
+.Lightbox .slide-container {
+  display: flex;
+  flex-direction: column;
+}
+.Lightbox .slide-container img {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 80vh;
+}
+.Lightbox .slide-container span {
+  margin-top: 5px;
+}
+
+.Lightbox .button-previous {
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+  line-height: 64px;
+  cursor: pointer;
+}
+
+.Lightbox .button-next {
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+  line-height: 64px;
+  cursor: pointer;
+}

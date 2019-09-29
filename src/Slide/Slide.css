@@ -1,0 +1,22 @@
+.Slide {
+  background-color: grey;
+  height: 320px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.Slide *,
+.Slide {
+  box-sizing: border-box;
+}
+.Slide img {
+  object-fit: contain;
+  max-height: calc(100% - 20px);
+}
+.Slide.selected {
+  border: 2px solid blue;
+}
