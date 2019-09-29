@@ -8,6 +8,9 @@ const lightbox = props => {
         &lt;
       </span>
       <div className="slide-container">
+        <span className="button-close" onClick={props.closeLightbox}>
+          X
+        </span>
         <img src={props.url} alt={props.label} />
         <span>{props.label}</span>
       </div>
