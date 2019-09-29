@@ -1,11 +1,4 @@
 .Lightbox {
-  /* background-color: grey;
-  max-height: 100vh;
-  margin: 130px;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  padding: 20px 20px; */
   display: flex;
   flex-direction: row;
   align-items: center;
