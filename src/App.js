@@ -173,7 +173,6 @@ class App extends Component {
         {lightBox}
         {slides}
         {filterBox}
-        {this.state.filterText}
       </div>
     );
   }
