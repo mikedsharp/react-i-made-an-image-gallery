@@ -1,0 +1,42 @@
+.Lightbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  * {
+    box-sizing: border-box;
+  }
+  .slide-container {
+    display: flex;
+    flex-direction: column;
+    img {
+      object-fit: contain;
+      max-width: 100%;
+      max-height: 80vh;
+    }
+    span {
+      margin-top: 5px;
+    }
+  }
+  .button-previous, .button-previous {
+    width: 64px;
+    height: 64px;
+    font-size: 32px;
+    line-height: 64px;
+    cursor: pointer;
+  }
+  .button-close {
+    position: relative;
+    left: 39px;
+    float: right;
+    display: flex;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    line-height: 25px;
+  }
+}

@@ -1,4 +1,7 @@
 .Slide {
+  * {
+    box-sizing: border-box;
+  }
   background-color: grey;
   height: 320px;
   width: 320px;
@@ -8,15 +11,13 @@
   padding: 10px;
   border-radius: 8px;
   cursor: pointer;
-}
-.Slide *,
-.Slide {
   box-sizing: border-box;
+  &.selected {
+    border: 2px solid blue;
+  }
+  img {
+    object-fit: contain;
+    max-height: calc(100% - 20px);
+  }
 }
-.Slide img {
-  object-fit: contain;
-  max-height: calc(100% - 20px);
-}
-.Slide.selected {
-  border: 2px solid blue;
-}
+

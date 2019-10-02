@@ -1,5 +1,5 @@
 import React from 'react';
-import './Lightbox.css';
+import './Lightbox.scss';
 
 const lightbox = props => {
   return (

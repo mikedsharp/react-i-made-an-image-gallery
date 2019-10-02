@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Slide from './Slide/Slide';
 import Lightbox from './Lightbox/Lightbox';
 import SlideFilter from './SlideFilter/SlideFilter';
-import './App.css';
+import './App.scss';
 class App extends Component {
   basePath =
     'https://s3-eu-west-1.amazonaws.com/michaeldsharp.com/assets/thumbs/';

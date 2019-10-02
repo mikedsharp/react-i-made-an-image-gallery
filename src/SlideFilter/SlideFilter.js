@@ -1,5 +1,5 @@
 import React from 'react';
-import './SlideFilter.css';
+import './SlideFilter.scss';
 
 const slideFilter = props => {
   return (
